@@ -188,14 +188,20 @@
                     <div class="container" style="padding-left: 5%;">
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN"
                             action="https://formsubmit.co/fc794024663778cf0e7738650abc2c04" method="POST">
+                            <!-- Hidden input to prevent spam -->
+                            <input type="text" name="_honey" style="display:none;" />
+                            <!-- disable captcha -->
+
+                            <input type="hidden" name="_captcha" value="false">
+
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" name="name" placeholder="Enter your name..."
-                                    required />
+                                <input class="form-control" id="name" type="text" name="name"
+                                    placeholder="Enter your name..." required />
                                 <label for="name">Name</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" name="email" placeholder="name@example.com"
-                                    required />
+                                <input class="form-control" id="email" type="email" name="email"
+                                    placeholder="name@example.com" required />
                                 <label for="email">Email address</label>
                             </div>
                             <div class="form-floating mb-3">
