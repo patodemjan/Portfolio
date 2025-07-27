@@ -1,0 +1,220 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  min-height: 80vh;
+  position: relative;
+  z-index: 0;
+}
+
+#about .card.mb-3.position-relative {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-header .emoji-img {
+  width: 180px;
+  height: auto;
+}
+
+#about .card-img-top.position-absolute {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#about .card-img-overlay {
+  position: relative;
+  z-index: 2;
+  padding: 8%;
+  display: flex;
+  align-items: center;
+}
+
+#footer {
+  background-color: rgb(202, 202, 212);
+  text-align: center;
+  margin-top: auto;
+}
+
+#skills .card-img-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 8% 4%;
+}
+
+footer .bi {
+    color: #000 !important;
+}
+
+.highlighted-search-result {
+  background-color: rgb(180, 180, 179);
+  transition: background-color 0.3s ease;
+}
+
+/* CARD SLIDER */
+.slider-wrapper {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 20px;
+}
+
+.card-slider {
+  display: flex;
+  gap: 20px;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.card-item {
+  min-width: 300px;
+  flex: 0 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  scroll-snap-align: center;
+}
+
+.card-item:hover {
+  transform: scale(1.03);
+}
+
+.card-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-caption {
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* ----- MOBILE STYLES ----- */
+@media (max-width: 768px) {
+  section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: unset;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 2rem !important;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .about-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+
+  .about-header .emoji-img {
+    width: 60px !important;
+    height: auto !important;
+    margin-left: 2vw;
+  }
+
+  #about .card-img-overlay {
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+  }
+
+  #about .flex-grow-1 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #header,
+  #footer {
+    padding: 10px;
+    text-align: center;
+  }
+
+  #contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contact .card {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contact .card-img-top {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    z-index: 1;
+  }
+
+  #contact .card-img-overlay {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+  }
+
+  #contact form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #skills .row {
+        flex-direction: column !important;
+    }
+    #skills .skill-item {
+        margin-bottom: 2rem;
+    }
+    #skills .card-title {
+        font-size: 10vh !important;
+    }
+
+
+  .card-item {
+    min-width: 250px;
+  }
+
+  .card-item img {
+    height: 150px;
+  }
+
+
+}

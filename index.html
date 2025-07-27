@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div id="header">
+        <!-- Header content if any -->
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <!-- HOME SECTION -->
+    <section id="home">
+        <div class="card mb-3">
+            <img src="images/portfolio3.jpg" class="card-img-top" alt="..." style="height: 100vh; opacity: 0.4;" />
+            <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
+                <h1 class="card-title text-center" style="font-size: 12vh; color: rgb(60, 57, 57);">Welcome to my
+                    portfolio!</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="card mb-3 position-relative">
+            <img src="images/portfolio4.jpg" class="card-img-top position-absolute" alt="..."
+                style="object-fit: cover; opacity: 0.5; top: 0; left: 0;" />
+            <div class="card-img-overlay d-flex align-items-center">
+                <div class="flex-grow-1" style="max-width: 70%;">
+                    <div class="d-flex align-items-center mb-3">
+                        <h2 class="card-title" style="font-size: 10vh;">About Me</h2>
+                    </div>
+                    <p class="card-text mb-4" style="font-size: 4vh; text-align: justify;">
+                        My name is Patrik, and I am a passionate programmer and web developer. This website showcases my
+                        skills and experiences in programming and software development. I specialize primarily in the
+                        Java programming language and use one of the most well-known frameworks – Spring Boot. Feel free
+                        to explore and don’t hesitate to contact me if you have any questions or are interested in
+                        collaboration. Thank you for your visit!</p>
+                    <p class="card-text fst-italic" style="font-size: 4vh;">
+                        "Brilliant people begin great works; diligent people complete them." — Leonardo da Vinci
+                    </p>
+                </div>
+                <img src="images/emoji.png" alt="Emoji" class="ms-3" style="width: 100%;" />
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <div class="card mb-1 position-relative">
+            <img src="images/portfolio6.jpg" class="card-img-top position-absolute w-100 h-100" alt="Skills Background"
+                style="object-fit: cover; opacity: 0.5; left: 0; top: 0;" />
+            <div class="card-img-overlay">
+                <h2 class="card-title mb-5" style="font-size: 10vh; padding-left: 5%;">Skills</h2>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-3 mb-4 d-flex flex-column align-items-center skill-item">
+                        <img src="images/logos/spring.png" alt="Skill 1" class="img-fluid mb-2"
+                            style="max-height: 120px;">
+                        <p class="text-center" style="font-size: 4vh;">Intermediate skills: Maven, Spring Boot, Spring
+                            MVC, Spring Data JPA</p>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-3 mb-4 d-flex flex-column align-items-center skill-item">
+                        <img src="images/logos/angular.png" alt="Skill 2" class="img-fluid mb-2"
+                            style="max-height: 120px;">
+                        <p class="text-center" style="font-size: 4vh;">Basics skills: Architectur, Basics Typescript,
+                            Data binging, Rouring,
+                            Forms </p>
+                    </div>
+                    <div class="col-12 col-md-3 mb-4 d-flex flex-column align-items-center skill-item">
+                        <img src="images/logos/html5.png" alt="Skill 2" class="img-fluid mb-2"
+                            style="max-height: 120px;">
+                        <p class="text-center" style="font-size: 4vh;">Lower intermediate skills: Semantic HTML, Forms,
+                            Tables</p>
+                    </div>
+                    <div class="col-12 col-md-3 mb-4 d-flex flex-column align-items-center skill-item">
+                        <img src="images/logos/css3.png" alt="Skill 2" class="img-fluid mb-2"
+                            style="max-height: 120px;">
+                        <p class="text-center" style="font-size: 4vh;">Lower intermediate skills: CSS Flexbox, CSS Grid,
+                            Responsive Design</p>
+                    </div>
+                    <div class="col-12 col-md-3 mb-4 d-flex flex-column align-items-center skill-item">
+                        <img src="images/logos/java.png" alt="Skill 2" class="img-fluid mb-2"
+                            style="max-height: 120px;">
+                        <p class="text-center" style="font-size: 4vh;">Upper intermediate skills: Java, OOP, classes,
+                            objects, inheritance,
+                            polymorphism</p>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center skill-item">
+                        <img src="images/logos/git.png" alt="Skill 2" class="img-fluid mb-2" style="max-height: 120px;">
+                        <p class="text-center" style="font-size: 4vh;">Basics skills: Git, GitHub, Version Control</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+
+    <section id="gallery" style="background-image: url('images/portfolio8.jpg');">
+        <div class="container py-5">
+            <h2 class="text-center mb-5" style="font-size: 7vh;">Gallery</h2>
+            <div class="slider-wrapper">
+                <div class="card-slider" id="cardSlider">
+                    <div class="card-item">
+                        <img src="images/gallery/" alt="Project 1" />
+                        <div class="card-caption">
+                            <h5>in progress...</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="images/gallery/" alt="Project 2" />
+                        <div class="card-caption">
+                            <h5>in progress...</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="images/gallery3.jpg" alt="Project 3" />
+                        <div class="card-caption">
+                            <h5>in progress...</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="images/gallery4.jpg" alt="Project 4" />
+                        <div class="card-caption">
+                            <h5>in progress...</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SOCIAL MEDIA SECTION -->
+
+    <section id="socialMedia">
+        <div class="card mb-1 position-relative" style="min-height: 80vh;">
+            <img src="images/portfolio7.jpg" class="card-img-top position-absolute w-100 h-100"
+                alt="Social Media Background" style="object-fit: cover; opacity: 0.5; left: 0; top: 0;" />
+            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                <h2 class="card-title mb-5 text-center" style="font-size: 10vh;">Social media</h2>
+                <div class="d-flex flex-wrap justify-content-center align-items-center gap-5" style="z-index:2;">
+                    <a href="https://www.linkedin.com/in/patrik-demjan-90602429b/"
+                        target="https://www.linkedin.com/in/patrik-demjan-90602429b/" class="text-dark"
+                        aria-label="LinkedIn">
+                        <i class="bi bi-linkedin" style="font-size: 3rem;"></i>
+                    </a>
+                    <a href="https://github.com/patodemjan" target="https://github.com/patodemjan" class="text-dark"
+                        aria-label="GitHub">
+                        <i class="bi bi-github" style="font-size: 3rem;"></i>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~01fe0e4e9101196b88"
+                        target="https://www.upwork.com/freelancers/~01fe0e4e9101196b88" class="text-dark"
+                        aria-label="Upwork">
+                        <i class="bi bi-briefcase" style="font-size: 3rem;"></i>
+                    </a>
+                    <a href="mailto:patodemjan@gmail.com" target="_blank" class="text-dark" aria-label="Gmail">
+                        <i class="bi bi-envelope-fill" style="font-size: 3rem;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <div class="card mb-0 position-relative">
+            <img src="images/portfolio5.jpg" class="card-img-top" alt="..." style="object-fit: cover; opacity: 0.5;" />
+            <div class="card-img-overlay d-flex">
+                <div class="flex-grow-1">
+                    <div class="d-flex align-items-center">
+                        <h2 class="card-title mb-1" style="font-size: 10vh; padding: 8%;">Contact me</h2>
+                    </div>
+                    <div class="container" style="padding-left: 5%;">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="https://formsubmit.co/patodemjan@gmail.com" method="POST">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    required />
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                    required />
+                                <label for="email">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                                    required />
+                                <label for="phone">Phone number</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" style="height: 10rem;"
+                                    placeholder="Your message..." required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <button class="btn btn-dark btn-xl" id="submitButton" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <div id="footer" style="background-color: rgb(202, 202, 212);">
+        © 2025 Patrik's Portfolio
+    </div>
+
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
