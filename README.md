@@ -31,4 +31,5 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 - HTML5 / CSS3
 - JavaScript (ES6)
 - Bootstrap 5
-- EmailJS *(for sending emails from the contact form)*
+- Formsubmit *(for sending emails from the contact form)*
+- Chatgpt (for testing and developing)
