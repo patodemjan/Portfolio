@@ -21,7 +21,7 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 - **About Me** section
 - Portfolio with **project previews**
 - Responsive design using **Bootstrap 5**
-- Contact form powered by **EmailJS** *(or your chosen service)*
+- Contact form powered by **Formsubmit** *(or your chosen service)*
 - Clean layout and smooth animations
 
 ---
