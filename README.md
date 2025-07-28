@@ -10,9 +10,9 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 ---
 ## 📸 Preview
 
-![Portfolio preview](images/gallery/screenshot.jpg)
-![Portfolio preview](images/gallery/screenshot2.jpg)
 ![Portfolio preview](images/gallery/screenshot3.jpg)
+![Portfolio preview](images/gallery/screenshot2.jpg)
+![Portfolio preview](images/gallery/screenshot1.jpg)
 
 ---
 
