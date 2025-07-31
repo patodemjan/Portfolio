@@ -52,13 +52,13 @@ section {
 }
 
 #skills .card-img-overlay {
-    position: relative;
-    z-index: 2;
-    padding: 8% 4%;
+  position: relative;
+  z-index: 2;
+  padding: 8% 4%;
 }
 
 footer .bi {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 .highlighted-search-result {
@@ -82,11 +82,12 @@ footer .bi {
 }
 
 .card-item {
-  min-width: 300px;
+  width: 300px;
+  height: 250px;
   flex: 0 0 auto;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
-  border-radius: 16px;
+  border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -99,14 +100,36 @@ footer .bi {
 
 .card-item img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
 }
 
 .card-caption {
   padding: 15px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.fullscreen-overlay img {
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  cursor: zoom-out;
 }
 
 /* ----- MOBILE STYLES ----- */
@@ -198,23 +221,23 @@ footer .bi {
     border-radius: 10px;
   }
   #skills .row {
-        flex-direction: column !important;
-    }
-    #skills .skill-item {
-        margin-bottom: 2rem;
-    }
-    #skills .card-title {
-        font-size: 10vh !important;
-    }
-
+    flex-direction: column !important;
+  }
+  #skills .skill-item {
+    margin-bottom: 2rem;
+  }
+  #skills .card-title {
+    font-size: 10vh !important;
+  }
 
   .card-item {
-    min-width: 250px;
+    width: 90vw;
+    height: 200px;
   }
 
   .card-item img {
-    height: 150px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
-
-
 }
