@@ -139,11 +139,12 @@ footer .bi {
   }
 
   .card-title {
-    font-size: 2rem !important;
+    font-size: 3rem !important;
+    font-weight: bold;
   }
 
   .card-text {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   .about-header {
@@ -223,9 +224,7 @@ footer .bi {
   #skills .skill-item {
     margin-bottom: 2rem;
   }
-  #skills .card-title {
-    font-size: 10vh !important;
-  }
+
 
   .card-item {
     width: 90vw;
@@ -237,6 +236,5 @@ footer .bi {
     height: 100%;
     object-fit: contain;
   }
-
 
 }
