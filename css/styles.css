@@ -105,7 +105,7 @@ footer .bi {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* ------ FULLSCREEN MODE -------*/
+/* ------ FULLSCREEN MODE -------*/ 
 
 .fullscreen-overlay {
   position: fixed;
@@ -238,20 +238,5 @@ footer .bi {
     object-fit: contain;
   }
 
-  #gallery h2 {
-    font-size: 7vh;
-  }
 
-  #skills .card,
-  #gallery {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: auto;
-    min-height: unset;
-  }
-
-  #skills .card-img-overlay,
-  #gallery .container {
-    padding: 10px;
-  }
 }
