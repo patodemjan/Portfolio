@@ -61,11 +61,6 @@ footer .bi {
   color: #000 !important;
 }
 
-.highlighted-search-result {
-  background-color: rgb(180, 180, 179);
-  transition: background-color 0.3s ease;
-}
-
 /* CARD SLIDER */
 .slider-wrapper {
   overflow-x: auto;
@@ -109,6 +104,8 @@ footer .bi {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7);
 }
+
+/* ------ FULLSCREEN MODE -------*/
 
 .fullscreen-overlay {
   position: fixed;
@@ -239,5 +236,22 @@ footer .bi {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  #gallery h2 {
+    font-size: 7vh;
+  }
+
+  #skills .card,
+  #gallery {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    min-height: unset;
+  }
+
+  #skills .card-img-overlay,
+  #gallery .container {
+    padding: 10px;
   }
 }
