@@ -1,0 +1,16 @@
+.bodybg{
+    background-image: url(/images/portfolio1.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+}
+
